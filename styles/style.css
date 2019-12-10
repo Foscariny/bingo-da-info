@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: classic;
+}
+
+@font-face {
+    font-family: classic;
+    src: url(../fonts/University.otf);
+}
+
+@font-face {
+    font-family: lapis;
+    src: url(../fonts/sketchy.ttf);
+}
+
+@font-face {
+    font-family: escrita;
+    src: url(../fonts/Letters\ for\ Learners.ttf);
+}
+
+body {
+    background-image: url("../images/Fundo.jpg");
+}
+
+
+@media only screen and (min-width: 769px){
+
+
+#tabela {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 40%;
+    background-image: url(../images/Tabela.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+
+.sorteados
+ {
+    float: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1vw;
+}
+
+.sorteados p{
+    line-height: 120%;
+    font-family: escrita;
+    text-align: justify;
+    font-size: 1.7vw;
+
+}
+
+.pontos
+ {
+    float: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1vw;
+}
+
+.pontos p{
+    line-height: 120%;
+    font-family: escrita;
+    text-align: justify;
+    font-size: 2vw;
+
+}
+
+.pontos2
+ {
+    float: left;
+    margin-top: 5vw;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+}
+
+.pontos2 p{
+    line-height: 120%;
+    font-family: escrita;
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+#tab {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    float: left;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    margin-left: 5%;
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.tabelinha {
+    float: left;
+    width: 100%;
+}
+
+.tabelinha td {
+    float: left;
+    min-width: 20%;
+    height: 4vw;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+}
+
+
+#TituloTabela {
+    text-align: center;
+    margin-top: 1.5vw;
+    font-size: 3.5vw;
+}
+
+#PapelAmarelo {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 20%;
+    height: 31vw;
+    background-image: url(../images/PapelAmarelo.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+
+#PapelAmarelo h1 {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 2.5vw;
+}
+
+#PapelRosa {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 20%;
+    height: 31vw;
+    background-image: url(../images/PapelRosa.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+
+#PapelRosa h1 {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 2.5vw;
+}
+
+#PapelAmarelo2 {
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none; 
+    float: left;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 20%;
+    height: 9vw;
+    background-image: url(../images/PapelAmarelo.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+
+#PapelAmarelo2 h1 {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 3vw;
+}
+
+#PapelAmarelo2 h1:hover {
+    font-size: 3.1vw;
+    text-decoration: underline;
+}
+
+#PapelAmarelo3 {
+    -webkit-touch-callout: none;  
+    -webkit-user-select: none;    
+    -khtml-user-select: none;     
+    -moz-user-select: none;       
+    -ms-user-select: none; 
+    display: none;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2vw;
+    width: 20%;
+    height: 9vw;
+    background-image: url(../images/PapelAmarelo.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+
+#PapelAmarelo3 h1 {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 2.5vw;
+}
+
+#PapelAmarelo3 p {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.2vw;
+    font-size: 1.5vw;
+}
+
+#PapelAmarelo3 h1:hover {
+    font-size: 2.7vw;
+    text-decoration: underline;
+}
+
+#PapelAzul {
+    float: left;
+    margin-left: 25%;
+    margin-top: 1vw;
+    width: 45%;
+    height: 13vw;
+    background-image: url(../images/PapelAzul.jpg);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+}
+#PapelAzul h1 {
+    font-family: lapis;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+}
+.regras {
+    float: left;
+    margin-top: 0.4vw;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+}
+.regras p {
+    font-family: escrita;
+    font-size: 1.5vw;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+
+    #tabela {
+        float: left;
+        margin-left: 5%;
+        margin-top: 5vw;
+        width: 90%;
+        background-image: url(../images/Tabela.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    
+    .sorteados
+     {
+        float: left;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 2.5vw;
+    }
+    
+    .sorteados p{
+        line-height: 120%;
+        font-family: escrita;
+        text-align: justify;
+        font-size: 3.7vw;
+    
+    }
+    
+    .pontos
+     {
+        float: left;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 1vw;
+    }
+    
+    .pontos p{
+        line-height: 120%;
+        font-family: escrita;
+        text-align: justify;
+        font-size: 4.5vw;
+    
+    }
+    
+    .pontos2
+     {
+        float: left;
+        margin-top: 5vw;
+        margin-left: 7%;
+        margin-right: 7%;
+        width: 86%;
+    }
+    
+    .pontos2 p{
+        line-height: 120%;
+        font-family: escrita;
+        text-align: center;
+        font-size: 5.8vw;
+    
+    }
+    
+    #tab {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        float: left;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+        margin-left: 5%;
+        width: 90%;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+    
+    .tabelinha {
+        float: left;
+        width: 100%;
+    }
+    
+    .tabelinha td {
+        float: left;
+        min-width: 20%;
+        height: 10vw;
+        box-sizing: border-box;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        padding-top: 1.5vw;
+        padding-bottom: 0.8vw;
+    }
+    
+    
+    #TituloTabela {
+        text-align: center;
+        margin-top: 2.5vw;
+        margin-bottom: 1.5vw;
+        font-size: 8vw;
+    }
+
+    #mobile{
+        float: right;
+        width: 50%;
+        margin-bottom: 4vw;
+        margin-top: 2vw;
+    }
+    
+    #PapelAmarelo {
+        float: left;
+        margin-left: 0;
+        margin-top: 2vw;
+        width: 90%;
+        height: 60vw;
+        background-image: url(../images/PapelAmarelo.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    
+    #PapelAmarelo h1 {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.5vw;
+        font-size: 4vw;
+    }
+    
+    #PapelRosa {
+        float: left;
+        margin-left: 0%;
+        margin-top: 4vw;
+        width: 90%;
+        height: 50vw;
+        background-image: url(../images/PapelRosa.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    
+    #PapelRosa h1 {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.5vw;
+        font-size: 5vw;
+    }
+    
+    #PapelAmarelo2 {
+        -webkit-touch-callout: none;  /* iPhone OS, Safari */
+        -webkit-user-select: none;    /* Chrome, Safari 3 */
+        -khtml-user-select: none;     /* Safari 2 */
+        -moz-user-select: none;       /* Firefox */
+        -ms-user-select: none; 
+        float: left;
+        margin-left: 5%;
+        margin-top: 4vw;
+        width: 40%;
+        height: 15vw;
+        background-image: url(../images/PapelAmarelo.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    
+    #PapelAmarelo2 h1 {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.2vw;
+        font-size: 6vw;
+    }
+    
+    #PapelAmarelo2 h1:hover {
+        font-size: 3.1vw;
+        text-decoration: underline;
+    }
+    
+    #PapelAmarelo3 {
+        -webkit-touch-callout: none;  
+        -webkit-user-select: none;    
+        -khtml-user-select: none;     
+        -moz-user-select: none;       
+        -ms-user-select: none; 
+        display: none;
+        float: left;
+        margin-left: 5%;
+        margin-top: 4vw;
+        width: 40%;
+        height: 15vw;
+        background-image: url(../images/PapelAmarelo.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    
+    #PapelAmarelo3 h1 {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.5vw;
+        font-size: 4.8vw;
+    }
+    
+    #PapelAmarelo3 p {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.2vw;
+        font-size: 2.5vw;
+    }
+    
+    
+    #PapelAzul {
+        float: left;
+        margin-left: 5%;
+        margin-top: 4vw;
+        width: 40%;
+        height: 65vw;
+        background-image: url(../images/PapelAzul.jpg);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+        box-shadow: 0px 2px 12px 4px rgba(0, 0, 0, 0.85);
+    }
+    #PapelAzul h1 {
+        font-family: lapis;
+        text-align: center;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+        font-size: 4.5vw;
+    }
+    .regras {
+        float: left;
+        margin-top: 0.9vw;
+        margin-right: 7%;
+        margin-left: 7%;
+        text-align: justify;
+    }
+    .regras p {
+        font-family: escrita;
+        font-size: 3.5vw;
+    }
+    
+    }
